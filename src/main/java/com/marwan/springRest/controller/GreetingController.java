@@ -10,7 +10,7 @@ import com.marwan.springRest.model.Greeting;
 
 @RestController
 public class GreetingController {
-	private static final String templat="Hello %";
+	private static final String templat="Hello %s";
 	
 	private final AtomicLong counter = new AtomicLong();
 	
